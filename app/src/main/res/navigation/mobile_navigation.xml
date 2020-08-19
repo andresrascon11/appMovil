@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.medicard.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_paciente"
+        android:name="com.example.medicard.ui.paciente.PacienteFragment"
+        android:label="@string/menu_paciente"
+        tools:layout="@layout/paciente_fragment" />
+
+    <fragment
+        android:id="@+id/nav_agendarCita"
+        android:name="com.example.medicard.ui.agendarCita.AgendarFragment"
+        android:label="@string/menu_agendarCita"
+        tools:layout="@layout/agendar_fragment" />
+
+    <fragment
+        android:id="@+id/nav_verCita"
+        android:name="com.example.medicard.ui.verCita.VerFragment"
+        android:label="@string/menu_verCita"
+        tools:layout="@layout/ver_fragment" />
+
+    <fragment
+        android:id="@+id/nav_receta"
+        android:name="com.example.medicard.ui.receta.RecetaFragment"
+        android:label="@string/menu_receta"
+        tools:layout="@layout/receta_fragment" />
+
+    <fragment
+        android:id="@+id/nav_vacunas"
+        android:name="com.example.medicard.ui.vacunas.VacunasFragment"
+        android:label="@string/menu_vacunas"
+        tools:layout="@layout/vacunas_fragment" />
+</navigation>

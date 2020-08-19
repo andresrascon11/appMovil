@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_paciente"
+            android:icon="@drawable/paciente"
+            android:title="@string/menu_paciente" />
+        <item
+            android:id="@+id/nav_agendarCita"
+            android:icon="@drawable/cita"
+            android:title="@string/menu_agendarCita" />
+
+        <item
+            android:id="@+id/nav_verCita"
+            android:icon="@drawable/ver"
+            android:title="@string/menu_verCita" />
+
+        <item
+            android:id="@+id/nav_receta"
+            android:icon="@drawable/receta"
+            android:title="@string/menu_receta" />
+
+        <item
+            android:id="@+id/nav_vacunas"
+            android:icon="@drawable/vacuna"
+            android:title="@string/menu_vacunas" />
+    </group>
+</menu>

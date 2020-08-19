@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Medicard</string>
+    <string name="title_activity_menu_principal">MenuPrincipal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_paciente">Paciente</string>
+    <string name="menu_agendarCita">Agendar Cita</string>
+    <string name="menu_verCita">Ver Citas</string>
+    <string name="menu_receta">Receta</string>
+    <string name="menu_vacunas">Vacunas</string>
+</resources>
